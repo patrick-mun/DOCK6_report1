@@ -1,13 +1,25 @@
 # Rapport scientifique DOCK6
 
-Ce dossier contient la copie éditoriale portable du rapport de phase 19.
+Ce dossier contient la version éditoriale, reformatée pour la lecture et la
+publication, du rapport de phase 19.
 
 ## Ouvrir le rapport
 
-Ouvrir `index.html` dans un navigateur. Toutes les figures externes utilisées
-par le document sont disponibles dans `images/` et appelées avec des chemins
-relatifs. Le rapport peut donc être déplacé sans dépendre du chemin local du
-run.
+Ouvrir `index.html` dans un navigateur, ou l'imprimer en PDF
+(`Ctrl/Cmd + P`, marges par défaut, graphiques d'arrière-plan activés). Le
+fichier est **entièrement autonome** : les 6 figures 1000 Genomes/LD/ROH/âge
+sont encodées en base64 et intégrées directement dans le HTML (elles ne
+dépendent plus du dossier `images/`). Le fichier peut donc être déplacé,
+renommé, envoyé par email ou copié seul sans rien casser.
+
+Structure du document : couverture, sommaire paginé, résumé exécutif,
+contexte et méthodes, Résultats 1 à 7, conclusion générale, puis deux
+annexes techniques (seuils de filtrage détaillés, configuration complète du
+run). Pagination A4 via CSS `@page` + Paged.js.
+
+Le dossier `images/` est conservé à titre de **source/provenance** des
+figures (voir `provenance_images.md`) ; il n'est plus requis pour l'affichage
+du rapport lui-même.
 
 ## Source
 
@@ -17,8 +29,8 @@ run.
 - Provenance des figures : `provenance_images.md`
 
 Le rapport historique du run reste la source immuable. Les révisions de mise en
-page destinées à la lecture et à la publication doivent être réalisées dans
-`rapport/index.html`.
+page destinées à la lecture et à la publication sont réalisées dans
+`index.html` à la racine de ce dépôt.
 
 ## Données sensibles
 
