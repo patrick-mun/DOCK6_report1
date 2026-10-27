@@ -32,8 +32,17 @@ Le rapport historique du run reste la source immuable. Les révisions de mise en
 page destinées à la lecture et à la publication sont réalisées dans
 `index.html` à la racine de ce dépôt.
 
-## Données sensibles
+## Anonymisation et publication
 
-Ce rapport contient des informations génétiques et familiales sensibles. Une
-revue d'anonymisation et d'autorisation est requise avant toute publication dans
-un dépôt public ou toute diffusion hors du périmètre autorisé.
+La publication de ce rapport est autorisée uniquement dans une forme ne
+permettant pas de relier les résultats à une personne déterminée. La version
+publiée ne doit contenir ni nom, ni identifiant clinique ou administratif, ni
+identifiant d'échantillon issu des données sources, ni table de correspondance,
+ni donnée génétique individuelle brute.
+
+Les identifiants techniques ou familiaux éventuellement présentés doivent être
+des pseudonymes propres au rapport, sans clé de réidentification publiée. Les
+résultats génétiques et familiaux doivent rester agrégés ou suffisamment
+anonymisés pour qu'ils ne puissent pas être recoupés avec un individu
+spécifique. Une revue de non-réidentification reste requise avant chaque
+nouvelle publication ou diffusion d'une version modifiée.
